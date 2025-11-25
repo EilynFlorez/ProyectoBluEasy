@@ -258,3 +258,47 @@ nav {
     border: 2px solid #2c3439;
     background: none;
 }
+
+/* Estilos sección 5 */
+.seccion-5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 33vh;
+    background-color: rgb(75, 202, 255);
+    padding: 4% 19%;
+    gap: 30px;
+}
+
+.sec5-cont-tit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec5-tit {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.sec5-tit h2 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #d5f2ff;
+}
+
+.sec5-cont-tit img {
+    width: 25px;
+}
+
+.seccion-5 p {
+    color: #d5f2ff;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.blanco {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
