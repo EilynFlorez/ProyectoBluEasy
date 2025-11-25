@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estilos generales */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "noto sans";
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Estilos header */
+header {
+    width: 100%;
+    min-height: 90vh;
+    background-image: url('../assets/images/Fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos cabecera del header */
+.content-cabecera {
+    align-items: center;
+    padding: 0% 19%;
+    min-height: 16vh;
+    background-color: rgba(66, 77, 84, 0.922);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-cabecera h1 {
+    font-size: 1.45rem;
+    color: rgb(255,255, 255);
+}
+
+.azul {
+    color: rgb(75, 206, 255);
+}
+
+nav {
+    width: 50%;
+}
+
+.menu-cabecera {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    gap: 8%;
+}
+
+.link-menu a {
+    color: rgb(255,255, 255);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.link-menu a:hover {
+    border: 2px solid rgb(75, 206, 255);
+    color: rgb(75, 206, 255);
+    padding: 8px 15px;
+}
+
+/* Estilos seccion 1 */
+.seccion-1 {
+    min-height: 72vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.seccion-1 h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(255,255, 255);
+    background-color: rgba(66, 77, 84, 0.922);
+    padding: 5px 20px;
+}
