@@ -490,3 +490,28 @@ nav {
     padding: 2% 12%;
 }
 
+/* Estilos del footer */
+footer {
+    width: 100%;
+    min-height: 18.5vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 19%;
+    background-color: rgb(53, 63, 71);
+}
+
+footer p, 
+footer a {
+    font-size: 10px;
+    font-weight: 800;
+    color: rgb(76, 91, 100);
+    padding: 0px 10px;
+}
+
+footer a {
+    border-right: 2px solid rgb(76, 91, 100);
+}
+
+.footer-link-2 {
+    border: none;
+}
