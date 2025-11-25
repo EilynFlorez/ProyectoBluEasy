@@ -24,6 +24,12 @@ li {
     list-style-type: none;
 }
 
+.linea-1 {
+    width: 40px;
+    height: 1.5px;
+    background-color: rgb(113, 121, 124);
+}
+
 /* Estilos header */
 header {
     width: 100%;
@@ -101,7 +107,7 @@ nav {
 /* Estilos sección 2 */
 .seccion-2 {
     display: grid;
-    grid-template-columns: 4;
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1;
     gap: 3%;
     padding: 4% 19%;
@@ -114,7 +120,6 @@ nav {
     flex-direction: column;
     align-items: start;
     gap: 10px;
-    grid-row: 1/2;
     width: 100%;
 }
 
@@ -134,3 +139,62 @@ nav {
     height: 38px;
 }
 
+/* Estilos sección 3 */
+.seccion-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 90vh;
+    padding: 3.5% 19%;
+    gap: 60px;
+}
+
+.sec3-cont-tit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec3-tit {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.sec3-tit h2 {
+    color: rgb(137, 144, 148);
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.sec3-menu {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    align-items: center;
+    gap: 45px;
+}
+
+.link-menu-2 a {
+    color: rgb(113, 121, 124);
+    font-size: 11px;
+    font-weight: 650;
+}
+
+.link-menu-2 a:hover {
+    border: 2px solid rgb(75, 206, 255);
+    color: rgb(75, 206, 255);
+    padding: 8px 15px;
+}
+
+.sec3-img {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.sec3-img img {
+    width: 100%;
+    opacity: 0.8;
+}
