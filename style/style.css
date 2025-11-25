@@ -8,6 +8,14 @@
     font-family: "noto sans";
 }
 
+body {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+}
+
 a {
     text-decoration: none;
 }
@@ -71,7 +79,7 @@ nav {
     padding: 8px 15px;
 }
 
-/* Estilos seccion 1 */
+/* Estilos sección 1 */
 .seccion-1 {
     min-height: 72vh;
     width: 100%;
@@ -89,3 +97,40 @@ nav {
     background-color: rgba(66, 77, 84, 0.922);
     padding: 5px 20px;
 }
+
+/* Estilos sección 2 */
+.seccion-2 {
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 1;
+    gap: 3%;
+    padding: 4% 19%;
+    padding-top: 8%;
+    background-color: rgb(75, 202, 255);
+}
+
+.sec2-art {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+.sec2-art h3 {
+    color: rgb(255,255, 255);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.sec2-art p {
+    font-size: 9px;
+    color: rgb(255,255, 255);
+    line-height: 1.8;
+}
+
+.sec2-art img {
+    height: 38px;
+}
+
