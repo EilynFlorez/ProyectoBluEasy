@@ -690,3 +690,42 @@ footer a {
     }
 }
 
+@media(max-width: 480px) {
+    /* Sección cabecera */
+    .content-cabecera {
+        padding: 8%;
+    }
+    .link-menu a {
+        font-size: 11px;
+    }
+
+    /* Sección 2 */
+    .seccion-2 {
+        min-height: 85vh;
+    }
+
+    /* Sección 3 */
+    .seccion-3 {
+        padding: 8%;
+    }
+
+    .sec3-menu {
+        gap: 0%;
+    }
+
+    /* Sección 4 */
+    .seccion-4 {
+        padding: 10%;
+    }
+
+    /* Sección 8 */
+    .form-contact {
+        gap: 0%;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
