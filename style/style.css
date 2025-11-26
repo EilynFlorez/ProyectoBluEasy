@@ -213,6 +213,7 @@ nav {
     background-color: rgb(81, 95, 103);
     padding: 4% 19%;
     gap: 12.7%;
+    align-items: center;
 }
 
 .sec4-cont-text {
@@ -514,4 +515,22 @@ footer a {
 
 .footer-link-2 {
     border: none;
+}
+
+/* Primer media querie */
+@media(max-width: 1279px) {
+    /* Sección 3 */
+    .sec3-menu {
+        gap: 20px;
+    }
+
+    /* Sección 4 */
+    .seccion-4 img {
+        height: auto;
+    }
+
+    /* Seccion 8 */
+    .form-contact {
+        gap: 1% 8%;
+    }
 }
