@@ -534,3 +534,28 @@ footer a {
         gap: 1% 8%;
     }
 }
+
+@media(max-width: 920px) {
+    /* Header */
+    .content-cabecera {
+        padding: 0% 10%;
+    }
+
+    /* Seccion 1 */
+    .seccion-1 h2{
+        font-size: 1.5rem;
+    }
+
+    /* Sección 2, 3, 4, 5, 6, 7, 8 y Footer*/
+    .seccion-2, 
+    .seccion-3, 
+    .seccion-4, 
+    .seccion-5,
+    .seccion-6,
+    .seccion-7,
+    .seccion-8,
+    footer {
+        padding: 4% 10%;
+    }
+
+}
